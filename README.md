@@ -1,28 +1,8 @@
 # NFC Scooter Fob
 
-Authors: John Culley, Kai Imery, Ananth Sanjay, Jeffery Zhang
+Authors: John Culley
 
 Date: 2023-04-25
-
-### Summary
-
-To create our NFC scooter and fob, there were a couple of key hardware pieces required for the functionality. The “scooter” element of the design is made up of an ESP32 which will act as a receiver for the IR/TX communication. Also the scooter will have a QR code which when scanned will reveal the scooter ID. The “fob” element of the design is comprised of a RaspberryPi which is responsible for scanning the QR code, and a ESP32 that will act as the transmitter. The third component is an authentication database which is created with a Raspberry Pi. 
-
-With all of these separate components identified, our team split into different groups to begin completing the different tasks. John and Jeffrey worked on the “Scooter” component. Ananth, John, and Jeffrey all worked together on the “Fob” component. Kai and John worked on the authentication database. After all of the separate components were constructed, we brought them back together and began testing. A couple of the key difficulties we found was communicating between the different devices over the Wifi network. It took a lot of testing to get the scanned QR code value from the python script to the node.js server, and then to the ESP32s. However, after a lot of testing, our components were finally all functioning together in unison and our project was complete. 
-
-
-### Self-Assessment 
-
-| Objective Criterion | Rating | Max Value  | 
-|---------------------------------------------|:-----------:|:---------:|
-| Objective One | 1 |  1     | 
-| Objective Two | 1 |  1     | 
-| Objective Three | 1 |  1     | 
-| Objective Four | 1 |  1     | 
-| Objective Five | 1 |  1     | 
-| Objective Six | 1 |  1     | 
-| Objective Seven | 1 |  1     | 
-
 
 ### Solution Design
 
@@ -63,7 +43,6 @@ Flow Chart
 
 
 ### Supporting Artifacts
-- [Link to video technical presentation](https://drive.google.com/file/d/1WD8spxYwRmpdJWVq5QAtUW4-Yg_30M_z/view?usp=sharing). Not to exceed 120s
 - [Link to video demo](https://drive.google.com/file/d/1DBGTXO5_bLmHzAh_bq64LmH5OjxAZD0C/view?usp=sharing). Not to exceed 120s
 
 
